@@ -1,0 +1,38 @@
+{
+  "name": "ms-playwright-cucumber-bdd-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js --require cucumber.js --require E2E/step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet && node reporter.js",
+    "report": "node reporter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samirthaker2020/MS-Playwright-Cucumber-BDD-html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samirthaker2020/MS-Playwright-Cucumber-BDD-html/issues"
+  },
+  "homepage": "https://github.com/samirthaker2020/MS-Playwright-Cucumber-BDD-html#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^9.0.0",
+    "chai": "^4.3.7",
+    "cucumber-html-reporter": "^5.5.0",
+    "playwright": "^1.31.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  }
+}

@@ -1,0 +1,277 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-action;as-a-user-i-want-to-login-into-appliaction-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "As a user I want to login into appliaction with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 835340124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user has visited the login page",
+            "match": {
+              "location": "E2E/step-definitions/E2E/login/login-step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3441001791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user provides valid login credentials",
+            "match": {
+              "location": "E2E/step-definitions/E2E/login/login-step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104402417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user should see the homepage",
+            "match": {
+              "location": "E2E/step-definitions/E2E/login/login-step.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9266290
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54111209
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;as-a-user-i-want-to-login-into-appliaction-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "As a user I want to login into appliaction with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 204788124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "the user has visited the login page",
+            "match": {
+              "location": "E2E/step-definitions/E2E/login/login-step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3825719583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user fill the login form with \"fail-1\" and \"fail-1\"",
+            "match": {
+              "location": "E2E/step-definitions/E2E/login/login-step.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121850417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user can see the message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "location": "E2E/step-definitions/E2E/login/login-step.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4486625
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7497041
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;as-a-user-i-want-to-login-into-appliaction-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "As a user I want to login into appliaction with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 155143708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "the user has visited the login page",
+            "match": {
+              "location": "E2E/step-definitions/E2E/login/login-step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3524333792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user fill the login form with \"fail-2\" and \"fail-2\"",
+            "match": {
+              "location": "E2E/step-definitions/E2E/login/login-step.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111836291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user can see the message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "location": "E2E/step-definitions/E2E/login/login-step.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2745208
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9656791
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;as-a-user-i-want-to-login-into-appliaction-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "As a user I want to login into appliaction with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 128023749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "the user has visited the login page",
+            "match": {
+              "location": "E2E/step-definitions/E2E/login/login-step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3384002625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user fill the login form with \"fail-3\" and \"fail-3\"",
+            "match": {
+              "location": "E2E/step-definitions/E2E/login/login-step.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105069083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user can see the message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "location": "E2E/step-definitions/E2E/login/login-step.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2326291
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9738041
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-action",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login action",
+    "tags": [],
+    "uri": "E2E/features/E2E/login/login.feature"
+  }
+]
