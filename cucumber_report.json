@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 628767958
+              "duration": 423421000
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3410212542
+              "duration": 3475041916
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 92079458
+              "duration": 113053582
             }
           },
           {
@@ -52,8 +52,9 @@
               "location": "E2E/step-definitions/E2E/login/login-step.js:20"
             },
             "result": {
-              "status": "passed",
-              "duration": 5222374
+              "status": "failed",
+              "duration": 5003255916,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/Samir.Thaker/All Demo Projects/MS-Playwright-Cucumber-BDD-html/node_modules/@cucumber/cucumber/lib/time.js:54:20)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)"
             }
           },
           {
@@ -61,7 +62,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 38143583
+              "duration": 44231666
             }
           }
         ],
@@ -80,7 +81,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 196262708
+              "duration": 213186791
             }
           },
           {
@@ -93,7 +94,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1504638291
+              "duration": 1481265625
             }
           },
           {
@@ -106,7 +107,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 105634624
+              "duration": 119299874
             }
           },
           {
@@ -119,7 +120,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2946208
+              "duration": 3336916
             }
           },
           {
@@ -127,7 +128,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10727833
+              "duration": 11398749
             }
           }
         ],
@@ -146,7 +147,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 208645332
+              "duration": 194946000
             }
           },
           {
@@ -159,7 +160,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1522450417
+              "duration": 1539206957
             }
           },
           {
@@ -172,7 +173,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 104644167
+              "duration": 116761500
             }
           },
           {
@@ -185,7 +186,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2485000
+              "duration": 2054875
             }
           },
           {
@@ -193,7 +194,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10085583
+              "duration": 11026540
             }
           }
         ],
@@ -212,7 +213,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 192958207
+              "duration": 200349207
             }
           },
           {
@@ -225,7 +226,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3408758083
+              "duration": 503641458
             }
           },
           {
@@ -238,7 +239,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 100469708
+              "duration": 113552332
             }
           },
           {
@@ -251,7 +252,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1907124
+              "duration": 2086540
             }
           },
           {
@@ -259,7 +260,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10036667
+              "duration": 9178083
             }
           }
         ],
