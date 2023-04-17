@@ -24,7 +24,6 @@
     "playwright": "^1.32.3"
   },
   "devDependencies": {
-    "@playwright/test": "^1.32.3",
     "eslint": "^8.35.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
