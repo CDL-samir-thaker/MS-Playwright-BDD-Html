@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/samirthaker2020/MS-Playwright-Cucumber-BDD-html#readme",
   "dependencies": {
-    "@cucumber/cucumber": "^9.1.0",
+    "@cucumber/cucumber": "^9.1.2",
     "chai": "^4.3.7",
     "cucumber-html-reporter": "^5.5.1",
     "playwright": "^1.32.3"
